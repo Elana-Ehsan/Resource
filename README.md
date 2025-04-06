@@ -3,9 +3,6 @@ My Resourse
 
 这里是我的资源库，包含网页中的资源
 
-<p align="center">
-  <img src="https://via.placeholder.com/200x80.png?text=Project+404" alt="Project 404 Logo" />
-</p>
 
 <h1 align="center">🚧 Project 404</h1>
 <p align="center"><i>“Not Found? Not a problem.”</i></p>
