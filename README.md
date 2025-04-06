@@ -18,14 +18,6 @@ My Resourse
 
 ---
 
-## 🔁 协作流程图
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/55602803/151176961-7e8abf2b-e4ad-4a61-8fa2-c3eaac3be40f.png" alt="Git Collaboration Flow" width="600">
-</p>
-
----
-
 ## 🔄 协作流程步骤
 git clone到本地
 
@@ -34,17 +26,17 @@ git clone到本地
 ```bash
 git checkout main
 git pull origin main
-
+```
 ### 🌱 2. 创建并切换到功能分支
 
 ```bash
 git checkout -b feature/你的名字-任务名
-
+```
 ### 🛠 3. 编码
 编码之后，如果对方更新了其中的文件，需要合并检查之后再推送
 ```bash
 ***编码***
-
+```
 ### 🚧 Step 3.5合并主分支并检查 + 提交更改
 ```bash
 # 确保当前在你的 feature 分支
@@ -53,15 +45,17 @@ git checkout feature/你的名字-功能名
 # 拉取最新主分支
 git fetch origin
 git merge origin/main
-
+```
 有冲突手动解决，修改后执行：
+```bash
 git add .
 git commit -m "简要描述本次修改"
-
+```
 
 ### ☁️ 4. 推送分支到 GitHub
+```bash
 git push origin feature/你的名字-任务名
-
+```
 ### 5. 发起 Pull Request（PR）
 打开 GitHub → 仓库页面 → 点击 “Compare & pull request”
 填写功能描述、提交 PR
